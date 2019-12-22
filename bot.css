@@ -1,0 +1,27 @@
+body {margin: auto; background: #f1f1f1; font: 14px Arial}
+h1,h2,h3,input,form,button,select,textarea,ul,ol,li {padding: 3; margin: 0; border: 0; list-style: none}
+*:focus {outline: 0}
+/*
+  Author: Yücel DURMAZ (TrueLove)
+*/
+/* Veri Listesi */
+#veriListesi {border: 1px solid #ddd; padding: 10px 10px 0 10px; border-radius: 3px; width: 650px; margin: 20px auto; background: #ddd}
+
+  /* Veri */
+  .veri {overflow: auto; padding: 10px; border: 1px solid #ddd; margin-bottom: 10px}
+  .veri.ok {border: 1px solid #dce4bd; background: #f8ffdd}
+  .veri.hata {border: 1px solid #e4bdbd; background: #ffdddd}
+  .veri img {float: left; width: 100px; height: 70px; margin-right: 10px}
+  .veri h3 {font-size: 17px; margin-bottom: 6px; color: #c20000}
+  .veri div.indir {margin-top: 10px}
+  .veri div.indir a {background: #7d9228; padding: 4px 7px; border-radius: 3px; color: #fff; text-decoration: none; font-size: 12px}
+  
+  /* Kategori */
+  .veriKategori {background: #eee; padding: 7px; overflow: auto; margin-bottom: 10px}
+  .veriKategori ul li {float: left; margin-right: 6px}
+  .veriKategori ul li select {width: 300px; padding: 4px; border-radius: 3px; background: #fbf8d5; border: 1px solid #b5b181}
+  .veriKategori ul li input {background: #615f4b; padding: 6px 8px; color: #fff; cursor: pointer; border-radius: 3px}
+
+.minicikkutucuk{width:595px; height:50px; background-color:#f8ffdd; border:1px solid #e2e2e2;
+font:bold 14px tahoma;} 
+.minicikkutucuk:hover {Border:1px solid #000000;}
